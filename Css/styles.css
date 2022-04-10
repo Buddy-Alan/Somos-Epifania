@@ -1,0 +1,37 @@
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-collapse {
+    justify-content: flex-end
+}
+
+.navbar-nav {
+    font-size: 1.3rem;
+}
+
+.nav-item {
+    margin: 0px 5px;
+}
+
+.row {
+    justify-content: center
+}
+
+footer {
+    position: sticky;
+    background-color: rgb(246 226 201);
+    padding-bottom: 2px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+footer ul li {
+    list-style: none;
+}
