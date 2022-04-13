@@ -79,9 +79,21 @@
         margin: 50px;
     }
     
+    main h1 {
+        text-align: center;
+        color: goldenrod;
+        grid-column: 1/3;
+        margin-top: 15px;
+    }
+    
     .produ {
         display: flex;
         flex-direction: column;
+    }
+    
+    .produ ul li {
+        font-size: 1.5rem;
+        font-weight: 600;
     }
     
     .produ img {
