@@ -8,10 +8,6 @@
         z-index: 100;
     }
     
-    .navbar {
-        height: 90px;
-    }
-    
     .navbar-collapse {
         justify-content: flex-end
     }
@@ -51,8 +47,7 @@
     }
     
     .carousel-item img {
-        width: 80%;
-        height: 450px;
+        height: 550px;
     }
     
     .carousel-inner {
@@ -74,6 +69,23 @@
         .navbar-brand img {
             height: 73px;
         }
+    }
+    
+    .pag_produ {
+        display: grid;
+        grid-template-columns: 0.8fr 0.8fr;
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+        margin: 50px;
+    }
+    
+    .produ {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .produ img {
+        width: 95%;
     }
     
     @media only screen and (max-width: 799px) {
@@ -103,5 +115,8 @@
         }
         .carousel-item img {
             height: 250px;
+        }
+        .pag_produ {
+            grid-template-columns: 0.9fr;
         }
     }
