@@ -2,6 +2,11 @@
         font-family: 'Cabin', sans-serif;
     }
     
+    a {
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    
     header {
         position: sticky;
         top: 0;
@@ -39,12 +44,15 @@
     footer ul {
         display: flex;
         justify-content: space-around;
+        align-items: center;
         padding-top: 10px;
     }
     
     footer ul li {
         list-style: none;
+        font-size: 1.5rem;
     }
+    /*Estilado del Index*/
     
     .carousel-item img {
         height: 550px;
@@ -57,8 +65,10 @@
     .mainParrafos p {
         margin: 20px 20px;
         font-size: 150%;
-        font-weight: 900;
+        font-weight: 600;
+        letter-spacing: 2px;
     }
+    /*EStilado de la pagina productos*/
     
     .pag_produ {
         display: grid;
@@ -67,17 +77,20 @@
         gap: 10px;
         margin: 50px;
     }
+    /*Modicia el h1 de la pagina "Productos"*/
     
     main h1 {
         text-align: center;
         color: goldenrod;
         margin-top: 15px;
     }
+    /*Modicia el p de la pagina "Productos"*/
     
     main p {
         font-size: 2rem;
         font-family: 'Anek Gujarati', sans-serif;
         margin: 5px 10px;
+        letter-spacing: 2px;
     }
     
     .produ {
@@ -115,8 +128,11 @@
             margin: 35px;
             gap: 3px;
         }
-        ul li img {
+        footer ul li img {
             width: 85%;
+        }
+        footer ul li {
+            font-size: 1rem;
         }
     }
     
@@ -141,7 +157,10 @@
             grid-template-columns: 0.7fr;
             justify-content: center;
         }
-        ul li img {
+        footer ul li img {
             width: 75%;
+        }
+        main p {
+            letter-spacing: none;
         }
     }
