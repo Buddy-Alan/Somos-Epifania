@@ -149,18 +149,13 @@
     .ubi p {
         font-size: 2rem;
         font-weight: bold;
+        margin: 20px 20px;
     }
     
     .ubi_mapa {
-        display: grid;
-        grid-template-columns: 0.9;
+        display: flex;
         justify-content: center;
         margin-bottom: 15px;
-    }
-    
-    .ubi_mapa iframe {
-        width: 100%;
-        height: 200%;
     }
     /*Media Queries hasta 999px*/
     
@@ -217,9 +212,14 @@
         .nosotros_img {
             grid-template-columns: 0.9fr;
         }
-        .ubi_mapa {
-            width: 80%;
-            height: 400px;
+        /*Estilado para ubicacion*/
+        .ubi p {
+            font-size: 1.5rem;
+            margin: 15px 15px;
+        }
+        .ubi_mapa iframe {
+            width: 500px;
+            height: 500px;
         }
     }
     /*Media Queries hasta    599px*/
@@ -273,5 +273,13 @@
         .nosotros p {
             font-size: 1rem;
             margin: 10px 10px;
+        }
+        /*Estilado para ubicacion*/
+        .ubi p {
+            font-size: 1.2rem;
+        }
+        .ubi_mapa iframe {
+            width: 350px;
+            height: 350px;
         }
     }
